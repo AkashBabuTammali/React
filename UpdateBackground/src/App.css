@@ -1,0 +1,27 @@
+*,::before,::after{
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+.fillScreen{
+  width: 100vw;
+  height: 100vh;
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  position: fixed;
+  top: 90%;
+  left: calc(50% - 150px);
+  width: 300px;
+}
+
+.color{
+  border-radius: 3px;
+  color: white;
+  white-space: nowrap;
+}
